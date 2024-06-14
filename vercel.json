@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "cystal",
+      "src": "index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "cystal"
+      "dest": "index.js"
     }
   ]
 }
