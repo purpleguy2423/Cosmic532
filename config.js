@@ -2,11 +2,11 @@ const config = {
   challenge: true, // Set to true if you want to enable password protection.
   blocked: {
     // Normal users can ignore this option. This is for the owner of the website.
-    "gointerstellar.app": "",
+    "cosmic": "Cookielady",
   },
   users: {
     // You can add multiple users by doing username: 'password'.
-    cosmic534: "Cookielady1228",
+    password: "password",
   },
 };
 
